@@ -1,0 +1,15 @@
+[package]
+name = "SkillSwap"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xbc1ed3bf2145155a64da107c6f710bbf2c045a9114acb11d5d3cc8b87b8be349"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "devnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
